@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Responsive Web Design</title>
+  <desc id="desc">A desktop monitor, tablet and smartphone showing a responsive webpage.</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#28a5ff"/>
+      <stop offset="1" stop-color="#0754d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="92" fill="#f4f8ff"/>
+  <rect x="54" y="91" width="318" height="226" rx="18" fill="#102744"/>
+  <rect x="67" y="104" width="292" height="190" rx="9" fill="#fff"/>
+  <path d="M67 113a9 9 0 0 1 9-9h274a9 9 0 0 1 9 9v25H67z" fill="#e7edf6"/>
+  <circle cx="85" cy="121" r="5" fill="#ef5350"/><circle cx="102" cy="121" r="5" fill="#ffc107"/><circle cx="119" cy="121" r="5" fill="#28b463"/>
+  <rect x="82" y="151" width="262" height="76" rx="8" fill="url(#blue)"/>
+  <path d="M99 207l25-31 23 25 18-18 27 24z" fill="#fff" opacity=".95"/>
+  <circle cx="151" cy="174" r="8" fill="#fff"/>
+  <rect x="82" y="239" width="76" height="38" rx="6" fill="#1684f8"/>
+  <rect x="166" y="239" width="76" height="38" rx="6" fill="#ff9d18"/>
+  <rect x="250" y="239" width="94" height="38" rx="6" fill="#65c936"/>
+  <path d="M190 317h47l10 31h-67z" fill="#8295ad"/>
+  <rect x="159" y="347" width="109" height="12" rx="6" fill="#8295ad"/>
+  <rect x="310" y="174" width="126" height="220" rx="23" fill="#102744" stroke="#fff" stroke-width="5"/>
+  <rect x="320" y="190" width="106" height="185" rx="12" fill="#fff"/>
+  <rect x="332" y="207" width="82" height="61" rx="6" fill="url(#blue)"/>
+  <path d="M340 255l17-22 14 15 10-10 18 17z" fill="#fff"/>
+  <circle cx="370" cy="222" r="6" fill="#fff"/>
+  <rect x="332" y="278" width="82" height="27" rx="5" fill="#1684f8"/>
+  <rect x="332" y="313" width="82" height="27" rx="5" fill="#ff9d18"/>
+  <circle cx="373" cy="384" r="4" fill="#8ea2bd"/>
+  <rect x="410" y="277" width="70" height="145" rx="15" fill="#102744" stroke="#fff" stroke-width="4"/>
+  <rect x="417" y="291" width="56" height="116" rx="8" fill="#fff"/>
+  <rect x="424" y="302" width="42" height="37" rx="4" fill="url(#blue)"/>
+  <path d="M429 332l9-12 8 9 6-7 10 10z" fill="#fff"/>
+  <rect x="424" y="345" width="42" height="18" rx="4" fill="#1684f8"/>
+  <rect x="424" y="369" width="42" height="18" rx="4" fill="#ff9d18"/>
+  <circle cx="445" cy="414" r="3" fill="#8ea2bd"/>
+  <path d="M82 405h348" stroke="#1684f8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M107 427h298" stroke="#102744" stroke-width="5" stroke-linecap="round" opacity=".2"/>
+</svg>

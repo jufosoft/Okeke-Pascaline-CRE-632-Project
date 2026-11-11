@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">JavaScript Fundamentals</title>
+  <desc id="desc">A JavaScript learning icon with a yellow JS shield, code brackets and an open book on a navy background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#073b86"/>
+      <stop offset="1" stop-color="#06132f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe94a"/>
+      <stop offset="1" stop-color="#ffb900"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="76" fill="url(#bg)" stroke="#ffd21c" stroke-width="10"/>
+  <path d="M256 55 382 79 367 270 256 320 145 270 130 79Z" fill="url(#gold)" stroke="#ffdf37" stroke-width="5"/>
+  <text x="256" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="112" font-weight="900" fill="#071020">JS</text>
+  <path d="M88 170 48 205 88 240 M424 170 464 205 424 240" fill="none" stroke="#fff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M105 345 Q180 300 256 365 Q332 300 407 345 L407 380 Q330 344 256 399 Q182 344 105 380Z" fill="#fff" stroke="#dbe5f5" stroke-width="5"/>
+  <path d="M256 365V399" stroke="#ffca18" stroke-width="8"/>
+  <rect x="48" y="410" width="416" height="72" rx="24" fill="#06132f" stroke="#2f69c8" stroke-width="3"/>
+  <text x="256" y="441" text-anchor="middle" font-family="Arial, sans-serif" font-size="31" font-weight="800" fill="#fff">JavaScript</text>
+  <text x="256" y="469" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffd21c">Fundamentals</text>
+</svg>

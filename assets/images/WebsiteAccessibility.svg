@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Forms and Website Accessibility</title>
+  <desc id="desc">A form document with checkboxes and an accessibility symbol.</desc>
+  <rect width="512" height="512" rx="112" fill="#eef5ff"/>
+  <path d="M145 82h157l75 75v262a27 27 0 0 1-27 27H145a27 27 0 0 1-27-27V109a27 27 0 0 1 27-27Z" fill="#fff" stroke="#1d4ed8" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M302 84v70a12 12 0 0 0 12 12h62" fill="#dbeafe" stroke="#1d4ed8" stroke-width="16" stroke-linejoin="round"/>
+  <rect x="158" y="207" width="34" height="34" rx="7" fill="#dbeafe" stroke="#2563eb" stroke-width="8"/>
+  <path d="m166 223 9 9 17-21" fill="none" stroke="#2563eb" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M211 224h105" stroke="#64748b" stroke-width="13" stroke-linecap="round"/>
+  <rect x="158" y="273" width="34" height="34" rx="7" fill="#dbeafe" stroke="#2563eb" stroke-width="8"/>
+  <path d="m166 289 9 9 17-21" fill="none" stroke="#2563eb" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M211 290h105" stroke="#64748b" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="272" cy="366" r="20" fill="#0f766e"/>
+  <path d="M272 394v47m-38-32 38-10 38 10m-38-10-27 43m27-43 27 43" fill="none" stroke="#0f766e" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
