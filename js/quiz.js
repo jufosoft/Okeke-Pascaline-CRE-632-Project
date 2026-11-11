@@ -1,0 +1,10 @@
+const questions=[
+["Which language defines webpage structure?",["CSS","HTML","JavaScript","SQL"],1,"HTML provides the structure and content of a webpage."],
+["Which language styles a webpage?",["CSS","Python","HTML","C++"],0,"CSS controls colours, spacing, typography and layout."],
+["Which HTML element creates a hyperlink?",["img","linkto","a","href"],2,"The a element creates hyperlinks using its href attribute."],
+["What does a CSS media query help you do?",["Store passwords","Adapt layout to screen conditions","Create a database","Compress images"],1,"Media queries adapt styles to conditions such as viewport width."],
+["Which JavaScript keyword declares a reassignable block-scoped variable?",["let","style","href","class"],0,"Use let for a block-scoped variable that can be reassigned."],
+["Which service can publish a static site from a GitHub repository?",["GitHub Pages","Bluetooth","A spreadsheet","A text editor"],0,"GitHub Pages hosts static websites from a repository."]
+];
+const form=document.querySelector("#quiz-form");
+if(form){form.innerHTML=questions.map((q,i)=>`<div class="question"><h3>${i+1}. ${q[0]}</h3>${q[1].map((o,j)=>`<label class="option"><input type="radio" name="q${i}" value="${j}" required> ${o}</label>`).join("")}<p class="muted hidden" id="fb${i}"></p></div>`).join("")+`<button type="submit">Submit answers</button>`;form.onsubmit=e=>{e.preventDefault();let score=0;questions.forEach((q,i)=>{let v=Number(new FormData(form).get("q"+i));let f=document.querySelector("#fb"+i);if(v===q[2])score++;f.classList.remove("hidden");f.textContent=(v===q[2]?"✓ ":"✗ ")+q[3]});let pct=Math.round(score/questions.length*100);document.querySelector("#quiz-result").innerHTML=`<div class="result"><h2>Your score: ${score}/${questions.length} (${pct}%)</h2><p>${pct>=80?"Excellent work!":pct>=50?"Good effort. Review the explanations and try again.":"Keep practising. Revisit the lessons and try again."}</p><button onclick="location.reload()">Try again</button></div>`;localStorage.setItem("robolearn_last_score",pct)}}
